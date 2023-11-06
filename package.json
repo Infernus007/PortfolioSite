@@ -1,5 +1,5 @@
 {
-  "name": "awwwards-portfolio",
+  "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,10 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "peerDependencies": {
+   "react": ">=16.8.0",
+   "react-dom": ">=16.8.0"
+},
   "dependencies": {
     "eslint": "8.45.0",
     "eslint-config-next": "13.4.10",
