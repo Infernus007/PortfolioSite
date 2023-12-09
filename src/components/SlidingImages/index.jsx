@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
 import styles from "./style.module.scss";
@@ -42,7 +42,7 @@ const slider2 = [
   },
 ];
 
-function Index (){
+function Index() {
   const container = useRef(null);
   const { scrollYProgress } = useScroll({
     target: container,
@@ -56,7 +56,7 @@ function Index (){
   return (
     <div ref={container} className={styles.slidingImages}>
       <motion.div style={{ x: x1 }} className={styles.slider}>
-        {slider1.map((project, index) => {
+        {/* {slider1.map((project, index) => {
           return (
             <div
               key={index}
@@ -72,10 +72,10 @@ function Index (){
               </div>
             </div>
           );
-        })}
+        })} */}
       </motion.div>
       <motion.div style={{ x: x2 }} className={styles.slider}>
-        {slider2.map((project, index) => {
+        {/* {slider2.map((project, index) => {
           return (
             <div
               key={index}
@@ -91,7 +91,7 @@ function Index (){
               </div>
             </div>
           );
-        })}
+        })} */}
       </motion.div>
       <motion.div style={{ height }} className={styles.circleContainer}>
         <div className={styles.circle}></div>

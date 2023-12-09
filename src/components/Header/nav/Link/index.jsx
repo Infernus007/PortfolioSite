@@ -23,7 +23,7 @@ export default function Index({ data, isActive, setSelectedIndicator }) {
         animate={isActive ? "open" : "closed"}
         className={styles.indicator}
       ></motion.div>
-      <Link style={{ color: "black" }} href={href}>
+      <Link style={{ color: "white" }} href={href}>
         {title}
       </Link>
     </motion.div>

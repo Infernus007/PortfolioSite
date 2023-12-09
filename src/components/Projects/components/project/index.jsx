@@ -21,7 +21,7 @@ export default function index({
     >
       <a
         href={href}
-        style={{ textDecoration: "none", color: "black" }}
+        style={{ textDecoration: "none", color: "black", width: "100%" }}
         target="_blank"
       >
         <h2>{title}</h2>
